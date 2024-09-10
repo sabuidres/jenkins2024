@@ -8,5 +8,5 @@ spec:
   ports:
     - protocol: "TCP"
       port: 8881 # The port that the service is running on in the cluster
-      targetPort: 9991 # The port exposed by the service
+      targetPort: 8881 # The port exposed by the service
   type: LoadBalancer # type of the service.
